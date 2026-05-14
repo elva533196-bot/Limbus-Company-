@@ -7,12 +7,15 @@ import { viteSingleFile } from "vite-plugin-singlefile"
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   const isProd = process.env.NODE_ENV === 'production';
+  // Use './' base for both local double-click and simple web hosting.
+  const base = isProd ? './' : '/';
 
   return {
-    base: isProd ? './' : '/',
+    base,
     plugins: [
       react(), 
       tailwindcss(),
+      // Enable single file build for "double-click" functionality.
       isProd && viteSingleFile(),
     ].filter(Boolean),
     define: {

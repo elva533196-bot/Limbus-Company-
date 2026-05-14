@@ -1,9 +1,10 @@
 {
-  "name": "react-example",
+  "name": "limbus-company-sinner-guide",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "start": "serve -s dist -l 3000",
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
@@ -20,6 +21,7 @@
     "motion": "^12.23.24",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "serve": "^14.2.6",
     "vite": "^6.2.0",
     "vite-plugin-singlefile": "^2.3.3"
   },
