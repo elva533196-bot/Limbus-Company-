@@ -102,7 +102,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '02', name: '浮士德', en: 'Faust',
     image: 'https://limbuscompany.wiki.gg/images/thumb/3/30/Faust_Standard.png/400px-Faust_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/e/e4/Faust_Mugshot.png/100px-Faust_Mugshot.png',
     description: '都市中最聰明的天才科學家，開發了邊獄公司核心技術的「無所不知」者。',
     quote: '「浮士德無所不知。一切皆在計算之中。」',
     weapon: '長柄鐮刀',
@@ -137,7 +137,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '03', name: '唐吉訶德', en: 'Don Quixote',
     image: 'https://limbuscompany.wiki.gg/images/thumb/8/8d/Don_Quixote_Standard.png/400px-Don_Quixote_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/5/52/Don_Quixote_Mugshot.png/100px-Don_Quixote_Mugshot.png',
     description: '對收尾人與正義充滿極度熱情的「騎士」，時常展現出脫離現實的純真。',
     quote: '「為了正義！為了榮耀！吾之長槍將劃破黑暗！」',
     weapon: '長槍',
@@ -172,7 +172,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '04', name: '良秀', en: 'Ryōshū',
     image: 'https://limbuscompany.wiki.gg/images/thumb/7/75/Ryoshu_Standard.png/400px-Ryoshu_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/b/b3/Ryoshu_Mugshot.png/100px-Ryoshu_Mugshot.png',
     description: '追求極致「暴力之美」的劍擊藝術家。',
     quote: '「...快。美。死。這便是我追求的藝術。」',
     weapon: '大太刀',
@@ -206,7 +206,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '05', name: '默爾索', en: 'Meursault',
     image: 'https://limbuscompany.wiki.gg/images/thumb/a/a2/Meursault_Standard.png/400px-Meursault_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/c/c3/Meursault_Mugshot.png/100px-Meursault_Mugshot.png',
     description: '絕對遵從指令且不屈不撓的「局外人」，擁有驚人的意志力。',
     quote: '「我只接受具體指令。判斷與執行將由我完成。」',
     weapon: '護甲',
@@ -240,7 +240,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '06', name: '鴻璐', en: 'Hong Lu',
     image: 'https://limbuscompany.wiki.gg/images/thumb/d/d5/Hong_Lu_Standard.png/400px-Hong_Lu_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/1/15/Hong_Lu_Mugshot.png/100px-Hong_Lu_Mugshot.png',
     description: '出身顯赫豪門的「大少爺」，對外界的殘酷有著一種奇妙的天真感。',
     quote: '「哎呀，這裡的生活真是多采多姿。這就是平民的日常嗎？」',
     weapon: '偃月刀',
@@ -273,7 +273,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '07', name: '希斯克利夫', en: 'Heathcliff',
     image: 'https://limbuscompany.wiki.gg/images/thumb/4/41/Heathcliff_Standard.png/400px-Heathcliff_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/f/f6/Heathcliff_Mugshot.png/100px-Heathcliff_Mugshot.png',
     description: '憤怒與痛苦盈滿的「野獸」，為了復仇與失去的愛而前行。',
     quote: '「別擋我的路，不然就把你砸成肉泥！凱西...我一定會...」',
     weapon: '重型球棒',
@@ -307,7 +307,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '08', name: '以實瑪麗', en: 'Ishmael',
     image: 'https://limbuscompany.wiki.gg/images/thumb/c/cd/Ishmael_Standard.png/400px-Ishmael_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/7/7b/Ishmael_Mugshot.png/100px-Ishmael_Mugshot.png',
     description: '大海慘劇的「唯一生還者」，極度重視生存規則與理性計畫。',
     quote: '「大海從不原諒弱者。為了生存，我們必須遵守理。」',
     weapon: '鏈錘',
@@ -340,7 +340,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '09', name: '羅佳', en: 'Rodion',
     image: 'https://limbuscompany.wiki.gg/images/thumb/5/5e/Rodion_Standard.png/400px-Rodion_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/6/6f/Rodion_Mugshot.png/100px-Rodion_Mugshot.png',
     description: '熱情且豪爽的「享樂主義者」，在微笑與賭博中隱藏著沉重的過錯。',
     quote: '「人生就是一場博弈。只要還有骰子可擲，我就不會停下。」',
     weapon: '戰斧',
@@ -373,7 +373,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '10', name: '辛克萊', en: 'Sinclair',
     image: 'https://limbuscompany.wiki.gg/images/thumb/7/7f/Sinclair_Standard.png/400px-Sinclair_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/1/1f/Sinclair_Mugshot.png/100px-Sinclair_Mugshot.png',
     description: '在光明與黑暗、善與惡的邊緣徘徊的少年。',
     quote: '「我...我能守護大家嗎？如果這就是我必須跨越的試煉...」',
     weapon: '長柄戰斧',
@@ -405,7 +405,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '11', name: '奧提斯', en: 'Outis',
     image: 'https://limbuscompany.wiki.gg/images/thumb/0/07/Outis_Standard.png/400px-Outis_Standard.png',
-    shard: 'input_file_1.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/3/30/Outis_Mugshot.png/100px-Outis_Mugshot.png',
     description: '深沈幹練的「策略家」，表現出對但丁近乎異常的忠誠與絕對服從。',
     quote: '「一切都在經理的掌握中。我等只需執行最優解。」',
     weapon: '戰術拐杖',
@@ -437,7 +437,7 @@ const SINNERS: Sinner[] = [
   { 
     id: '12', name: '格里高爾', en: 'Gregor',
     image: 'https://limbuscompany.wiki.gg/images/thumb/e/e0/Gregor_Standard.png/400px-Gregor_Standard.png',
-    shard: 'input_file_0.png',
+    shard: 'https://limbuscompany.wiki.gg/images/thumb/9/90/Gregor_Mugshot.png/100px-Gregor_Mugshot.png',
     description: '被改造為蟲肢的「老兵」，外表隨和自嘲，內心卻渴望著平凡。',
     quote: '「唉，這也是工作的一部分吧？這隻手...還真是方便又麻煩。」',
     weapon: '改造蟲肢',
